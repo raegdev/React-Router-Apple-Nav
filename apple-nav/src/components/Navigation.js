@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 const Navigation = () => {
     return (
         <div>
-            <div>
-                <h1>Apple Nav</h1>
-                <div>
+            <div className='Nav'>
+
+                <div className='Links'>
                     <Link to='/'>Home</Link>
                     <Link to='/mac'>Mac</Link>
                     <Link to='/ipad'>iPad</Link>
